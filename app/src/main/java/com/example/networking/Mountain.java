@@ -30,4 +30,15 @@ public class Mountain {
         tmp+=name+" is located in mountain "+location+"and reaches "+height+"m above sea level.";
         return tmp;
     }
+    public void setName(String n){
+        name=n;
+    }
+
+    public String getName(){
+        return name;
+    }
+    @Override
+    public String toString(){
+        return name;
+    }
 }
